@@ -34,9 +34,9 @@ The dataset consists of:
 └── README.md 
 ```
 # 5. Environment Setup
-Install required dependencies using pip:
- `pip install transformers torch datasets scikit-learn tqdm matplotlib seaborn`
-Requirements:
+- Install required dependencies using pip:
+   ```pip install transformers torch datasets scikit-learn tqdm matplotlib seaborn```
+- Requirements:
   - Python ≥ 3.8
   - PyTorch ≥ 1.10
   - GPU recommended (CUDA), but CPU is supported
