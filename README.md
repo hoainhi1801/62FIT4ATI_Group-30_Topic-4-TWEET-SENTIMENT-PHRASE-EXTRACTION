@@ -26,12 +26,13 @@ The dataset consists of:
 - **Evaluation Metric**: Character-level F1 score
 # 4. Repository Structure
 ```
+├── tokenizer/
+├── .gitattributes 
 ├── 62FIT4ATI_Group-30_Topic-4-TWEET-SENTIMENT-PHRASE-EXTRACTION.ipynb
-├── roberta_span_final.pt 
-├── tokenizer/ 
-├── submission.csv 
 ├── 62FIT4ATI_Group-30_Topic-4-TWEET-SENTIMENT-PHRASE-EXTRACTION.docx 
-└── README.md 
+├── README.md
+├── result.csv
+└── roberta_span_final.pt
 ```
 # 5. Environment Setup
 - Install required dependencies using pip:
@@ -50,7 +51,7 @@ The notebook includes:
 # 6.2 Inference and Submission
 After training, the final model is used to generate predictions on the test set.
 The resulting file is saved as: 
-```submission.csv```
+```result.csv```
 This file contains:
   - textID
   - selected_text
